@@ -1,4 +1,4 @@
-# empsa-proptype-unad
+# Prototipo Funcional Empsa LTDA
 
 Este proyecto es parte de una entrega académica para demostrar un prototipo funcional de CRM, permitiendo explorar funcionalidades clave como la gestión de clientes y la visualización de datos.
 
