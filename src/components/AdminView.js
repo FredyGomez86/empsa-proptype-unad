@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';
@@ -8,7 +8,7 @@ const AdminView = ({
   users,
   invoices,
   setInvoices,
-  quotes,
+  quotes = [],
 }) => {
   const [currentTab, setCurrentTab] = useState('profile');
   const [editMode, setEditMode] = useState(false);
