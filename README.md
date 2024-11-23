@@ -22,30 +22,29 @@ El proyecto empsa-proptype-unad es una aplicación web que permite a los usuario
 
 Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
 
-1. Clona el repositorio:
+- Clona el repositorio:
 
-git clone https://github.com/tu-usuario/empsa-proptype-unad.git# empsa-proptype-unad
+git clone https://github.com/tu-usuario/empsa-proptype-unad/empsa-proptype-unad
 This project is part of an academic delivery to demonstrate a working CRM prototype, allowing to explore key functionalities such as customer management and data visualization.
 
-2. Navega al directorio del proyecto:
+-  Navega al directorio del proyecto:
+     cd empsa-proptype-unad
 
-    cd empsa-proptype-unad
+-  Instala las dependencias:
+     npm install
 
-3. Instala las dependencias:
+-  Inicia la aplicación:
+     npm start
 
-    npm install
-
-4. Inicia la aplicación:
-
-    npm start
-
-##Uso 
+## Uso 
 
 Una vez que la aplicación esté en funcionamiento, puedes acceder a ella a través de tu navegador web en http://localhost:3000. Desde allí, podrás gestionar la información de los clientes y generar reportes visuales.
 
-##Autores
-#Kevin Franco - contacto@kevinfranco.net
-#Freddy Gómez - fredygomez86@gmail.com
+## Autores
+
+
+Kevin Franco - contacto@kevinfranco.net
+Freddy Gómez - fredygomez86@gmail.com
 Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
 
