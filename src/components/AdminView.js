@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';
@@ -12,6 +12,7 @@ const AdminView = ({
 }) => {
   const [currentTab, setCurrentTab] = useState('profile');
   const [editMode, setEditMode] = useState(false);
+  
 
   const navigate = useNavigate();
   const [admin, setAdmin] = useState({
@@ -181,13 +182,10 @@ const AdminView = ({
     navigate('/survey');
   };
 
-  useEffect(() => {
-    console.log('Users:', users);
-    console.log('Filtered clients:', clients);
-  }, [users, clients]); 
-  
 
-  const clients = users?.filter((user) => user?.role === 'client') || [];
+  const clients = useMemo(() => {
+    return users.filter((user) => user.role === 'client');
+  }, [users]);
 
   return (
     <div className="container-fluid vh-100 d-flex flex-column p-0">
