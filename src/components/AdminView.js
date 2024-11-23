@@ -184,7 +184,8 @@ const AdminView = ({
   useEffect(() => {
     console.log('Users:', users);
     console.log('Filtered clients:', clients);
-  }, [users]);
+  }, [users, clients]); 
+  
 
   const clients = users?.filter((user) => user?.role === 'client') || [];
 
