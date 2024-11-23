@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/empsa-proptype-unad/static/css/main.79d19d76.css",
-    "main.js": "/empsa-proptype-unad/static/js/main.803cc56b.js",
+    "main.js": "/empsa-proptype-unad/static/js/main.744d3fb3.js",
     "static/js/239.b77494ae.chunk.js": "/empsa-proptype-unad/static/js/239.b77494ae.chunk.js",
     "static/js/213.a433e299.chunk.js": "/empsa-proptype-unad/static/js/213.a433e299.chunk.js",
     "static/js/732.228db161.chunk.js": "/empsa-proptype-unad/static/js/732.228db161.chunk.js",
@@ -9,7 +9,7 @@
     "static/media/crm.jpg": "/empsa-proptype-unad/static/media/crm.54e741ef2738df507923.jpg",
     "index.html": "/empsa-proptype-unad/index.html",
     "main.79d19d76.css.map": "/empsa-proptype-unad/static/css/main.79d19d76.css.map",
-    "main.803cc56b.js.map": "/empsa-proptype-unad/static/js/main.803cc56b.js.map",
+    "main.744d3fb3.js.map": "/empsa-proptype-unad/static/js/main.744d3fb3.js.map",
     "239.b77494ae.chunk.js.map": "/empsa-proptype-unad/static/js/239.b77494ae.chunk.js.map",
     "213.a433e299.chunk.js.map": "/empsa-proptype-unad/static/js/213.a433e299.chunk.js.map",
     "732.228db161.chunk.js.map": "/empsa-proptype-unad/static/js/732.228db161.chunk.js.map",
@@ -17,6 +17,6 @@
   },
   "entrypoints": [
     "static/css/main.79d19d76.css",
-    "static/js/main.803cc56b.js"
+    "static/js/main.744d3fb3.js"
   ]
 }
